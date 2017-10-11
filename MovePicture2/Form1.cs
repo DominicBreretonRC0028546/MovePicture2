@@ -19,11 +19,11 @@ namespace MovePicture2
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            pictureBox1.Location = new Point(pictureBox1.Location.X + 5, pictureBox1.Location.Y);
+            pictureBox2.Location = new Point(pictureBox2.Location.X + 50, pictureBox2.Location.Y);
             await Task.Delay(500);
-            pictureBox1.Location = new Point(pictureBox1.Location.X - 5, PictureBox.1Location.Y);
+            pictureBox2.Location = new Point(pictureBox2.Location.Y - 50, pictureBox2.Location.X);
             await Task.Delay(500);
-
+           
         }
     }
 }
